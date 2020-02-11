@@ -1,13 +1,24 @@
 import React, { Component } from 'react';
 import {render} from 'react-dom';
 import Hello from './components/Hello';
+import MapContainer from './components/Map/MapContainer';
 
 class App extends Component {
   render() {
-    return (
-      <Hello />
-    )
+    if (document.getElementById('root').classList.contains('map')){
+      return (
+        <MapContainer />
+      )
+    }
+    else{
+      return (
+        <Hello />
+      )
+    }    
   }
 }
 
+
 render(<App />, document.getElementById('root'));
+
+
