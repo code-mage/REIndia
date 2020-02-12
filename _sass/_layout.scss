@@ -1,13 +1,10 @@
 /**
  * Site header
  */
-.site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
+.site-header, .page-content, .site-footer, #root {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif
 }
 
 .site-title {
@@ -35,11 +32,16 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        padding-bottom: 8px;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
         }
+    }
+
+    a.page-link:hover {
+        border-bottom: 4px #CA8F70 solid
     }
 
     @include media-query($on-palm) {
@@ -83,6 +85,9 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+            padding-bottom: 8px;
+
+            
 
             &:not(:last-child) {
                 margin-right: 0;
@@ -105,12 +110,14 @@
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+    text-align: right;
 }
 
 .contact-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    text-align: right;
 }
 
 .footer-col-wrapper {
@@ -127,18 +134,19 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(75% - (#{$spacing-unit} / 2));
+    width:         calc(75% - (#{$spacing-unit} / 2));
+
+    
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
+    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    width:         calc(25% - (#{$spacing-unit} / 2));
 
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    .footer-name{
+        font-weight: 700;
+    }
 }
 
 @include media-query($on-laptop) {
@@ -168,7 +176,11 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    // padding: $spacing-unit 0;
+}
+
+#root {
+    padding: 2 * $spacing-unit 0;
 }
 
 .page-heading {
@@ -194,7 +206,16 @@
     font-size: 24px;
 }
 
-
+.image-container{
+    text-align: center;
+    display: block;
+    padding-bottom: 40px;
+    // border-bottom: 2px #a6a6a6 solid;
+    margin-bottom: 40px;
+    .image-stock{
+        width: 70%;
+    }
+}
 
 /**
  * Posts
@@ -217,26 +238,67 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 56px;
+        letter-spacing: -1px;
+
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: 24px;
         }
     }
 
     h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
         font-size: 20px;
+        font-weight: 300;
+        line-height: 46px;
+        letter-spacing: -1px;
 
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 56px;
+        letter-spacing: -1px;
+
+        @include media-query($on-laptop) {
+            font-size: 16px;
+        }
+    }
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: -1px;
+
+
+    @include media-query($on-laptop) {
+        font-size: 24px;
+    }
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+
+    @include media-query($on-laptop) {
+        font-size: 18px;
+    }
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: -1px;
+
+    @include media-query($on-laptop) {
+        font-size: 16px;
     }
 }

@@ -2,9 +2,8 @@ import React from "react";
 import India from "@svg-maps/India";
 import { RadioSVGMap } from "react-svg-map";
 const stateValues = require( './../../../value.json');
-import { TooltipHost } from 'office-ui-fabric-react/lib/Tooltip';
-import { Callout } from 'office-ui-fabric-react/lib/Callout';
 import StateCallout from './StateCallout';
+import MapDescription from './MapDescription';
 
 class Map extends React.Component {
 
@@ -71,14 +70,19 @@ class Map extends React.Component {
   render() {
     return  (<div>    
       {this.state.selectedState && this.state.show && <StateCallout stateId={this.state.selectedState} onDismiss={this.handleDismiss}/>}
-      <RadioSVGMap 
-          map={India}
-          onLocationMouseOver={this.handleLocationMouseOver}
-          onLocationMouseOut={this.handleLocationMouseOut}
-          onLocationFocus={this.handleLocationFocus}
-          onLocationBlur={this.handleLocationBlur}
-          onChange={this.handleOnChange}
-          onLocationMouseMove={this.handleLocationMouseMove}/>
+      <div className="map-columns">
+        <div className="map">
+          <RadioSVGMap 
+              map={India}
+              onLocationMouseOver={this.handleLocationMouseOver}
+              onLocationMouseOut={this.handleLocationMouseOut}
+              onLocationFocus={this.handleLocationFocus}
+              onLocationBlur={this.handleLocationBlur}
+              onChange={this.handleOnChange}
+              onLocationMouseMove={this.handleLocationMouseMove}/>
+        </div>
+        {<MapDescription stateId={this.state.selectedState} onDismiss={this.handleDismiss}/>}
+      </div>
     </div>);
     
 
