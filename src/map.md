@@ -1,6 +1,7 @@
 ---
 layout: map
-title: Map
+title: RE Policy Map - India
+header:  RE Policy Map - India
 permalink: /map/
 ---
 

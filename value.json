@@ -1,0 +1,194 @@
+{
+    "params": ["rank","value"],
+    "values":{
+        "rank":{
+            "name": "State Rank by Whatever"
+        },
+        "value":{
+            "name":"Some kind of indicator value"
+        }
+    },
+    "states": {
+        "an": {
+            "name": "Andaman and Nicobar Islands",
+            "rank": "1",
+            "value": "1"
+        },
+        "ap": {
+            "name": "Andhra Pradesh",
+            "rank": "2",
+            "value": "2",
+            "description":"lalalalalalalalalal"
+        },
+        "ar": {
+            "name": "Arunachal Pradesh",
+            "rank": "1",
+            "value": "3"
+        },
+        "as": {
+            "name": "Assam",
+            "rank": "1",
+            "value": "4"
+        },
+        "br": {
+            "name": "Bihar",
+            "rank": "1",
+            "value": "5"
+        },
+        "ch": {
+            "name": "Chandigarh",
+            "rank": "1",
+            "value": "6"
+        },
+        "ct": {
+            "name": "Chhattisgarh",
+            "rank": "1",
+            "value": "7"
+        },
+        "dn": {
+            "name": "Dadra and Nagar Haveli",
+            "rank": "1",
+            "value": "8"
+        },
+        "dd": {
+            "name": "Daman and Diu",
+            "rank": "1",
+            "value": "9"
+        },
+        "dl": {
+            "name": "Delhi",
+            "rank": "1",
+            "value": "10"
+        },
+        "ga": {
+            "name": "Goa",
+            "rank": "1",
+            "value": "3"
+        },
+        "gj": {
+            "name": "Gujarat",
+            "rank": "1",
+            "value": "3"
+        },
+        "hr": {
+            "name": "Haryana",
+            "rank": "1",
+            "value": "3"
+        },
+        "hp": {
+            "name": "Himachal Pradesh",
+            "rank": "1",
+            "value": "0"
+        },
+        "jk": {
+            "name": "Jammu and Kashmir",
+            "rank": "1",
+            "value": "3"
+        },
+        "jh": {
+            "name": "Jharkhand",
+            "rank": "1",
+            "value": "3"
+        },
+        "ka": {
+            "name": "Karnataka",
+            "rank": "1",
+            "value": "3"
+        },
+        "kl": {
+            "name": "Kerala",
+            "rank": "1",
+            "value": "3"
+        },
+        "ld": {
+            "name": "Lakshadweep",
+            "rank": "1",
+            "value": "3"
+        },
+        "mp": {
+            "name": "Madhya Pradesh",
+            "rank": "1",
+            "value": "3"
+        },
+        "mh": {
+            "name": "Maharashtra",
+            "rank": "1",
+            "value": "3"
+        },
+        "mn": {
+            "name": "Manipur",
+            "rank": "1",
+            "value": "3"
+        },
+        "ml": {
+            "name": "Meghalaya",
+            "rank": "1",
+            "value": "3"
+        },
+        "mz": {
+            "name": "Mizoram",
+            "rank": "1",
+            "value": "3"
+        },
+        "nl": {
+            "name": "Nagaland",
+            "rank": "1",
+            "value": "3"
+        },
+        "or": {
+            "name": "Odisha",
+            "rank": "1",
+            "value": "3"
+        },
+        "py": {
+            "name": "Puducherry",
+            "rank": "1",
+            "value": "3"
+        },
+        "pb": {
+            "name": "Punjab",
+            "rank": "1",
+            "value": "3"
+        },
+        "rj": {
+            "name": "Rajasthan",
+            "rank": "1",
+            "value": "3"
+        },
+        "sk": {
+            "name": "Sikkim",
+            "rank": "1",
+            "value": "3"
+        },
+        "tn": {
+            "name": "Tamil Nadu",
+            "rank": "1",
+            "value": "3"
+        },
+        "tg": {
+            "name": "Telangana",
+            "rank": "1",
+            "value": "3"
+        },
+        "tr": {
+            "name": "Tripura",
+            "rank": "1",
+            "value": "3"
+        },
+        "up": {
+            "name": "Uttar Pradesh",
+            "rank": "1",
+            "value": "3"
+        },
+        "ut": {
+            "name": "Uttarakhand",
+            "rank": "1",
+            "value": "3"
+        },
+        "wb": {
+            "name": "West Bengal",
+            "rank": "1",
+            "value": "3"
+        }
+    }
+}

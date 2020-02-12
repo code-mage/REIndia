@@ -14,6 +14,14 @@ module.exports = {
             query: {
                 presets: ["react", "es2015"]
             }
+        },
+        // {
+        //     test: /\.json$/,
+        //     loader: 'json-loader'
+        // },
+        {
+            test: /\.css$/i,
+            use: ['style-loader', 'css-loader'],
         }]
     },
     mode: 'development' // Avoids a warning when running `webpack`.

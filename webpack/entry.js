@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {render} from 'react-dom';
 import Hello from './components/Hello';
 import MapContainer from './components/Map/MapContainer';
+import * as data from './../value.json';
 
 class App extends Component {
   render() {
@@ -17,7 +18,6 @@ class App extends Component {
     }    
   }
 }
-
 
 render(<App />, document.getElementById('root'));
 
