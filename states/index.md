@@ -1,6 +1,8 @@
 ---
 layout: map
-title: RE Policy Map by states- India
+title: RE Policy Map - India
+header:  Map
+order: 2
 permalink: /states/
 ---
 

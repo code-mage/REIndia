@@ -31,7 +31,7 @@ class StateCallout extends React.Component {
                         {stateValues.states[stateId].description}
                     </p>
                     <div className={"footer"}>
-                        <Link className={"footer-link"} href={location.protocol + '//' + location.host + "/states/" + stateId} target="_blank">
+                        <Link className={"footer-link"} href={stateId} target="_blank">
                             Read in Detail
                     </Link>
                     </div>
