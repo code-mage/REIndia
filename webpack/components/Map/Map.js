@@ -14,14 +14,16 @@ class Map extends React.Component {
 		this.state = {
 			pointedState: null,
 			focusedState: null,
-			selectedState: null
+      selectedState: null,
+      show: false
 		};
 
 		this.handleLocationMouseOver = this.handleLocationMouseOver.bind(this);
 		this.handleLocationMouseOut = this.handleLocationMouseOut.bind(this);
 		this.handleLocationFocus = this.handleLocationFocus.bind(this);
 		this.handleLocationBlur = this.handleLocationBlur.bind(this);
-		this.handleOnChange = this.handleOnChange.bind(this);
+    this.handleOnChange = this.handleOnChange.bind(this);
+    this.handleDismiss = this.handleDismiss.bind(this);
 		this.handleLocationMouseMove = this.handleLocationMouseMove.bind(this);
 	}
 
@@ -46,14 +48,19 @@ class Map extends React.Component {
 
 	handleLocationBlur() {
 		this.setState({ focusedState: null });
-	}
+  }
+  
+  handleDismiss(){
+    this.setState({ show: false });
+  }
 
 	handleOnChange(selectedNode) {
 		this.setState(prevState => {
       return {
         pointedState: prevState.pointedState,
         focusedState: prevState.focusedState,
-				selectedState: selectedNode.id
+        selectedState: selectedNode.id,
+        show: true
 			};
 		});
 	}
@@ -63,7 +70,7 @@ class Map extends React.Component {
 
   render() {
     return  (<div>    
-      {this.state.selectedState && <StateCallout stateId={this.state.selectedState}/>}
+      {this.state.selectedState && this.state.show && <StateCallout stateId={this.state.selectedState} onDismiss={this.handleDismiss}/>}
       <RadioSVGMap 
           map={India}
           onLocationMouseOver={this.handleLocationMouseOver}
@@ -114,6 +121,20 @@ class Map extends React.Component {
   
 }
 
+// function getColor(val) {
+//   var r, g, b = 0;
+
+//   if (val == 0){
+//     return "#a6a6a6"
+//   }
+
+//   g = 220;
+//   r = Math.round(190 - 18 * val);
+
+//   var h = r * 0x10000 + g * 0x100 + b * 0x1;
+//   return '#' + ('000000' + h.toString(16)).slice(-6);
+// }
+
 function getColor(val) {
   var r, g, b = 0;
 
@@ -121,18 +142,19 @@ function getColor(val) {
     return "#a6a6a6"
   }
 
-  g = 230;
-  r = Math.round(190 - 18 * val);
+  g = 255
+  r = Math.round(282 - 27.2*val);   //lowest vlaue is 1
+  b = Math.round(282 - 27.2*val);   //lowest vlaue is 1
 
   var h = r * 0x10000 + g * 0x100 + b * 0x1;
   return '#' + ('000000' + h.toString(16)).slice(-6);
 }
 
-export function getLocationId(event) {
+function getLocationId(event) {
 	return event.target.id;
 }
 
-export function getLocationSelected(event) {
+function getLocationSelected(event) {
 	return event.target.attributes['aria-checked'].value === 'true';
 }
 

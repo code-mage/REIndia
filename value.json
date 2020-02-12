@@ -1,194 +1,232 @@
 {
-    "params": ["rank","value"],
-    "values":{
-        "rank":{
+    "params": [
+        "rank",
+        "value"
+    ],
+    "values": {
+        "rank": {
             "name": "State Rank by Whatever"
         },
-        "value":{
-            "name":"Some kind of indicator value"
+        "value": {
+            "name": "Some kind of indicator value"
         }
     },
     "states": {
         "an": {
             "name": "Andaman and Nicobar Islands",
             "rank": "1",
-            "value": "1"
+            "value": "1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "ap": {
             "name": "Andhra Pradesh",
             "rank": "2",
             "value": "2",
-            "description":"lalalalalalalalalal"
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "ar": {
             "name": "Arunachal Pradesh",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "as": {
             "name": "Assam",
             "rank": "1",
-            "value": "4"
+            "value": "4",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "br": {
             "name": "Bihar",
             "rank": "1",
-            "value": "5"
+            "value": "5",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "ch": {
             "name": "Chandigarh",
             "rank": "1",
-            "value": "6"
+            "value": "6",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "ct": {
             "name": "Chhattisgarh",
             "rank": "1",
-            "value": "7"
+            "value": "7",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "dn": {
             "name": "Dadra and Nagar Haveli",
             "rank": "1",
-            "value": "8"
+            "value": "8",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "dd": {
             "name": "Daman and Diu",
             "rank": "1",
-            "value": "9"
+            "value": "9",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "dl": {
             "name": "Delhi",
             "rank": "1",
-            "value": "10"
+            "value": "10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "ga": {
             "name": "Goa",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "gj": {
             "name": "Gujarat",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "hr": {
             "name": "Haryana",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "hp": {
             "name": "Himachal Pradesh",
             "rank": "1",
-            "value": "0"
+            "value": "0",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "jk": {
             "name": "Jammu and Kashmir",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "jh": {
             "name": "Jharkhand",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "ka": {
             "name": "Karnataka",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "kl": {
             "name": "Kerala",
             "rank": "1",
-            "value": "3"
+            "value": "4",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "ld": {
             "name": "Lakshadweep",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "mp": {
             "name": "Madhya Pradesh",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "mh": {
             "name": "Maharashtra",
             "rank": "1",
-            "value": "3"
+            "value": "5",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "mn": {
             "name": "Manipur",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "ml": {
             "name": "Meghalaya",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "mz": {
             "name": "Mizoram",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "nl": {
             "name": "Nagaland",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "or": {
             "name": "Odisha",
             "rank": "1",
-            "value": "3"
+            "value": "6",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "py": {
             "name": "Puducherry",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "pb": {
             "name": "Punjab",
             "rank": "1",
-            "value": "3"
+            "value": "7",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "rj": {
             "name": "Rajasthan",
             "rank": "1",
-            "value": "3"
+            "value": "8",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "sk": {
             "name": "Sikkim",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "tn": {
             "name": "Tamil Nadu",
             "rank": "1",
-            "value": "3"
+            "value": "9",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "tg": {
             "name": "Telangana",
             "rank": "1",
-            "value": "3"
+            "value": "10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "tr": {
             "name": "Tripura",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "up": {
             "name": "Uttar Pradesh",
             "rank": "1",
-            "value": "3"
+            "value": "1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "ut": {
             "name": "Uttarakhand",
             "rank": "1",
-            "value": "3"
+            "value": "2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         },
         "wb": {
             "name": "West Bengal",
             "rank": "1",
-            "value": "3"
+            "value": "3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "
         }
     }
 }

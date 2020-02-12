@@ -14,8 +14,10 @@ class StateCallout extends React.Component {
 
         if (stateId && stateValues.states[stateId]) {
             return (<Callout
+            className="state-callout"
                 role="alertdialog"
                 gapSpace={0}
+                onDismiss={this.props.onDismiss}
                 target={"#" + stateId}
                 setInitialFocus={true}
             >
