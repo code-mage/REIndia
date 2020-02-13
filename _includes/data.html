@@ -1,0 +1,39 @@
+<div class="site-data">
+    <div class="wrapper">
+        <div class="data-points">
+
+            <div class="data-point state">
+                {% assign stateCount = 0 %}
+                {% for post in site.pages %}
+                    {% if post.state %}
+                        {% assign stateCount = stateCount | plus: 1 %}
+                    {% endif %}
+                {% endfor %}
+                <div class="data small-circle">{{stateCount}}</div>
+                <h2 class="data label">States</h2>
+            </div>
+
+            <div class="data-point policy">
+            {% assign policyCount = 0 %}
+            {% for post in site.pages %}
+                {% if post.policy %}
+                    {% assign policyCount = policyCount | plus: 1 %}
+                {% endif %}
+            {% endfor %}
+            <div class="data small-circle">{{policyCount}}</div>
+            <h2 class="data label">Policies</h2>
+            </div>
+
+            <div class="data-point blog">
+            {% assign postCount = 0 %}
+            {% for post in site.posts %}
+                {% assign postCount = postCount | plus: 1 %}
+            {% endfor %}
+            <div class="data small-circle">{{postCount}}</div>
+            <h2 class="data label">Posts</h2>
+            </div>
+
+
+        </div>
+    </div>
+</div>

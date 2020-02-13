@@ -4,20 +4,21 @@
   {% include head.html %}
 
   <body>
-
+    <div class="page-container">
     {% include header.html %}
 
     <div id="root" class="map"></div>
     
     <div class="page-content">
-      <div class="wrapper">
+      <div class="content-wrapper">
         {{ content }}
       </div>
     </div>
 
     
-
     {% include footer.html %}
+
+  </div>
     <script type="text/javascript" src="/REIndia/assets/javascripts/bundle.js" charset="utf-8"></script>
   </body>
 

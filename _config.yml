@@ -17,8 +17,8 @@ description: > # this means to ignore newlines until "baseurl:"
   nostrud exercitation 
 baseurl: "/REIndia" # the subpath of your site, e.g. /blog
 url: "http://code-mage.github.io/REIndia" # the base hostname & protocol for your site
-twitter_username: allizad
-github_username:  allizad
+github:  code-mage/REIndia/tree/gh-pages
+repo-name: REIndia
 # include: ['_states']
 
 # Build settings

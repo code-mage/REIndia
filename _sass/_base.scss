@@ -23,6 +23,7 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    background-color: #363636;
 }
 
 
@@ -35,16 +36,6 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
-}
-
-
-
-/**
- * Images
- */
-img {
-    max-width: 100%;
-    vertical-align: middle;
 }
 
 
@@ -154,7 +145,7 @@ pre {
 /**
  * Wrapper
  */
-.wrapper, #root {
+.page-container, #root {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
@@ -171,7 +162,18 @@ pre {
     }
 }
 
+// .site-header{
+//     padding-right: $spacing-unit;
+//     padding-left: $spacing-unit;
+// }
 
+.page-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e6e6;
+
+    
+}
 
 /**
  * Clearfix

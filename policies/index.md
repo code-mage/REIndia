@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
-header: About
-permalink: /about/
-order: 5
+title: Policy
+header: Policy
+permalink: /policies/
+order: 4
 ---
 
 ## Hello

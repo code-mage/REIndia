@@ -2,19 +2,23 @@
 
   <div class="wrapper">
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <p>{{ site.description }}</p>
-        <p>Reach out to us for any queries</p>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <h2 class="footer-heading">Contact</h2>
+    <div class="footer">
+      <div class="footer-col one">
+        <div class="header">Contact Us</div>
         <ul class="contact-list">
-          <li class="footer-name">{{ site.name }}</li>
+          <li>{{ site.name }}</li>
           <li>{{ site.phone }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
+      </div>
+      <div class="footer-col two">
+        <div class="header">Contribute</div>
+        <ul class="social-media-list">
+          {% if site.github %}
+          <li>
+            {% include icon-github.html repo=site.github repo-name=site.repo-name %}
+          </li>
+          {% endif %}
       </div>
 
       
