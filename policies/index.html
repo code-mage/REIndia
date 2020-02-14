@@ -1,0 +1,30 @@
+---
+layout: default
+title: Policy
+header: Policy
+permalink: /policies/
+order: 4
+---
+
+<div class="home">
+
+  <ul class="policy-list">
+    {% for page in site.pages %}
+    {% if page.policy %}
+      <li>
+        <div class="policy-excerpt">
+          <img src={% if page.excerpt-image %}{{ page.excerpt-image | prepend: site.baseurl }}{% else %}{{ "/assets/images/policy-icon.jpg" | prepend: site.baseurl }}{% endif %} alt="policy-image">
+          <div class="policy-body">
+            <h2>
+              <a class="policy-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>          
+            </h2>
+            <span class="policy-meta">{{ page.date | date: "%b %-d, %Y" }}</span>
+            <p>{{ page.description }}</p>
+          </div>
+        </div>        
+      </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+</div>

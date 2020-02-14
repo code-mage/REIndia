@@ -11,11 +11,16 @@ order: 3
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <div class="blog-post-excerpt">
+          <img src={% if post.excerpt-image %}{{ post.excerpt-image | prepend: site.baseurl }}{% else %}{{ "/assets/images/blog-icon.jpg" | prepend: site.baseurl }}{% endif %} alt="blog-image">
+          <div class="blog-body">
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>          
+            </h2>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <p>{{ post.excerpt }}</p>
+          </div>
+        </div>        
       </li>
     {% endfor %}
   </ul>
