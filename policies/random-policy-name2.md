@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Policy 1
-permalink: /policies/random-policy-name/
+permalink: /policies/random-policy-name2/
 date:   2020-02-13
 policy: true
 description: random things to say about this policy bla bla bla bla bla 222222
